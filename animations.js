@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check for saved theme preference or prefer-color-scheme
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
     const savedTheme = localStorage.getItem('theme');
-    
-    if (savedTheme === 'dark' || (!savedTheme && prefersDarkScheme.matches)) {
+
+    if (savedTheme === 'dark') {
       document.body.classList.add('dark-mode');
       checkbox.checked = true;
       themeLabel.textContent = 'Light Mode';
