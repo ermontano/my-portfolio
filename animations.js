@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
       strings: [
         'Software Developer',
         'Frontend Developer',
-        'Problem Solver'
+        'Problem Solver',
+        'UI/UX Designer'
       ],
       typeSpeed: 50,
       backSpeed: 30,
